@@ -18,7 +18,7 @@ st.markdown("""
 # استبدل 'AIzaSyDI0Xp7rX7JLD8W73b32ooWxOzeq3jrn3o' بمفتاحك الخاص
 API_KEY = "AIzaSyDI0Xp7rX7JLD8W73b32ooWxOzeq3jrn3o" 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model=genai.GenerativeModel('gemini-1.5-flash')
 
 # --- دالة استخراج النص من الملفات ---
 def extract_text(files):
