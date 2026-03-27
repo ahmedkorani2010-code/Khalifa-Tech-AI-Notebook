@@ -13,7 +13,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 2. إدخال مفتاح الـ API (تأكد من وضعه هنا)
-API_KEY = "ضع_مفتاحك_هنا" 
+API_KEY = "AIzaSyDI0Xp7rX7JLD8W73b32ooWxOzeq3jrn3oا" 
 
 # إعداد النموذج مع معالجة خطأ الـ NotFound
 try:
